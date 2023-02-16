@@ -1,0 +1,13 @@
+$bar-width: 15%;
+
+.layout {
+  > div:first-child {
+    max-width: 80%;
+    margin: 0 $bar-width;
+  }
+
+  > .center {
+    @apply p-layout;
+    margin: 0 $bar-width;
+  }
+}
